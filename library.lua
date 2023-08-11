@@ -30,7 +30,7 @@ local Library = {
 
     HudRegistry = {};
 
-    FontColor = Color3.fromRGB(597, 0, 610);
+    FontColor = Color3.fromRGB(137, 1, 158);
     FontColor2 = Color3.fromRGB(149, 7, 210);
     MainColor = Color3.fromRGB(15, 15, 15);
     MainColor2 = Color3.fromRGB(23, 23, 23);
@@ -483,7 +483,7 @@ do
         Library:Create('UIGradient', {
             Color = ColorSequence.new({
                 ColorSequenceKeypoint.new(0, Color3.new(1, 1, 1)),
-                ColorSequenceKeypoint.new(1, Color3.fromRGB(597, 0, 610))
+                ColorSequenceKeypoint.new(1, Color3.fromRGB(137, 1, 158))
             });
             Rotation = 90;
             Parent = HueBoxInner;
@@ -494,7 +494,7 @@ do
             Position = UDim2.new(0, 5, 0, 0);
             Size = UDim2.new(1, -5, 1, 0);
             Font = Enum.Font.Code;
-            PlaceholderColor3 = Color3.fromRGB(597, 0, 610);
+            PlaceholderColor3 = Color3.fromRGB(137, 1, 158);
             PlaceholderText = 'Hex color',
             Text = '#FFFFFF',
             TextColor3 = Library.FontColor;
@@ -1118,7 +1118,7 @@ do
         Library:Create('UIGradient', {
             Color = ColorSequence.new({
                 ColorSequenceKeypoint.new(0, Color3.new(1, 1, 1)),
-                ColorSequenceKeypoint.new(1, Color3.fromRGB(597, 0, 610))
+                ColorSequenceKeypoint.new(1, Color3.fromRGB(137, 1, 158))
             });
             Rotation = 90;
             Parent = ButtonInner;
@@ -1178,7 +1178,7 @@ do
             Library:Create('UIGradient', {
                 Color = ColorSequence.new({
                     ColorSequenceKeypoint.new(0, Color3.new(1, 1, 1)),
-                    ColorSequenceKeypoint.new(1, Color3.fromRGB(597, 0, 610))
+                    ColorSequenceKeypoint.new(1, Color3.fromRGB(137, 1, 158))
                 });
 
                 Rotation = 90;
@@ -1301,7 +1301,7 @@ do
         Library:Create('UIGradient', {
             Color = ColorSequence.new({
                 ColorSequenceKeypoint.new(0, Color3.new(1, 1, 1)),
-                ColorSequenceKeypoint.new(1, Color3.fromRGB(597, 0, 610))
+                ColorSequenceKeypoint.new(1, Color3.fromRGB(137, 1, 158))
             });
             Rotation = 90;
             Parent = TextBoxInner;
@@ -1325,7 +1325,7 @@ do
             Size = UDim2.fromScale(5, 1),
             
             Font = Enum.Font.Code;
-            PlaceholderColor3 = Color3.fromRGB(597, 0, 610);
+            PlaceholderColor3 = Color3.fromRGB(137, 1, 158);
             PlaceholderText = Info.Placeholder or '';
 
             Text = Info.Default or '';
@@ -1804,7 +1804,7 @@ do
         Library:Create('UIGradient', {
             Color = ColorSequence.new({
                 ColorSequenceKeypoint.new(0, Color3.new(1, 1, 1)),
-                ColorSequenceKeypoint.new(1, Color3.fromRGB(597, 0, 610))
+                ColorSequenceKeypoint.new(1, Color3.fromRGB(137, 1, 158))
             });
             Rotation = 90;
             Parent = DropdownInner;
