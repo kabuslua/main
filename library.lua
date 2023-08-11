@@ -1,4 +1,4 @@
---// Linoria Rewrite!
+--// kabus Rewrite!
 
 local InputService = game:GetService('UserInputService');
 local TextService = game:GetService('TextService');
